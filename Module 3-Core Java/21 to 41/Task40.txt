@@ -1,0 +1,24 @@
+import java.time.Duration;
+import java.time.Instant;
+
+public class que40_VirtualThreadsDemo {
+    public static void main(String[] args) {
+        int totalThreads = 100_000;
+
+        System.out.println("Starting " + totalThreads + " virtual threads...");
+
+        Instant start = Instant.now();
+
+        for (int i = 0; i < totalThreads; i++) {
+            Thread.startVirtualThread(() -> {
+                // Simulate a lightweight task
+                System.out.println("Hello from virtual thread: " + Thread.currentThread());
+            });
+        }
+
+        Instant end = Instant.now();
+        Duration duration = Duration.between(start, end);
+
+        System.out.println("Finished launching in " + duration.toMillis() + " ms");
+    }
+}
