@@ -1,0 +1,17 @@
+<!-- Preferred Event Type Section -->
+<section id="preferences">
+  <h2>Choose Your Preferred Event Type</h2>
+
+  <label for="preferredEvent">Select an Event:</label>
+  <select id="preferredEvent" onchange="savePreference()">
+    <option value="">-- Choose Event --</option>
+    <option value="music">Music Night</option>
+    <option value="yoga">Yoga Session</option>
+    <option value="art">Art Workshop</option>
+    <option value="food">Food Festival</option>
+  </select><br><br>
+
+  <button onclick="clearPreferences()">Clear Preferences</button>
+
+  <p id="storageMessage"></p>
+</section>

@@ -1,0 +1,52 @@
+/* Link Styling */
+
+/* Default link style */
+a:link {
+    color: #007BFF; /* blue */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Visited link */
+a:visited {
+    color: #551A8B; /* purple */
+}
+
+/* Hover effect */
+a:hover {
+    color: #0056b3; /* darker blue */
+    text-decoration: underline;
+}
+
+/* Active link */
+a:active {
+    color: #003d80; /* even darker blue */
+}
+
+/* List Styling */
+
+/* Remove bullets and padding from navigation menus */
+nav ul {
+    list-style-type: none; /* no bullets */
+    padding-left: 0;
+    margin: 0;
+    display: flex; /* horizontal menu */
+}
+
+/* Add spacing between list items */
+nav ul li {
+    margin-right: 20px;
+    padding: 5px 0;
+}
+
+/* For general lists, customize bullets */
+ul.custom-bullets {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+ul.custom-bullets li {
+    margin-bottom: 8px; /* spacing between list items */
+}

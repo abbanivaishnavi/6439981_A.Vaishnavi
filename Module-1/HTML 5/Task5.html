@@ -1,0 +1,31 @@
+<!-- Event Registration Section -->
+<section id="registration">
+  <h2>Register for an Event</h2>
+
+  <form id="eventForm" onsubmit="handleSubmit(event)">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required autofocus><br><br>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <label for="eventDate">Event Date:</label>
+    <input type="date" id="eventDate" name="eventDate" required><br><br>
+
+    <label for="eventType">Event Type:</label>
+    <select id="eventType" name="eventType" required>
+      <option value="">-- Select an Event --</option>
+      <option value="music">Music Night</option>
+      <option value="yoga">Yoga Session</option>
+      <option value="art">Art Workshop</option>
+      <option value="food">Food Festival</option>
+    </select><br><br>
+
+    <label for="message">Message (optional):</label><br>
+    <textarea id="message" name="message" rows="4" cols="40" placeholder="Any special requests or notes..."></textarea><br><br>
+
+    <button type="submit">Register</button>
+  </form>
+
+  <output id="confirmationMessage"></output>
+</section>

@@ -1,0 +1,42 @@
+ Task 11: Debug and Test with Dev Tools and VS Code (CSS Assignment)
+Scenario
+Some users report layout breaking on smaller screens.
+
+Objective
+Use Chrome DevTools and VS Code to test responsive styles and debug layout issues.
+
+Steps Performed
+1. Simulate Screen Sizes
+Tool: Chrome DevTools → Device Toolbar (Ctrl+Shift+M or Toggle Device Toolbar)
+
+Action: Simulated different screen sizes: mobile, tablet, and desktop.
+
+Result: Verified how navigation and layout elements responded to screen width.
+
+2. Inspect & Test Styles Live
+Tool: Chrome DevTools → Elements tab
+
+Action: Inspected CSS applied to containers and adjusted padding, flex settings, and font sizes live.
+
+Result: Observed real-time layout changes and ensured proper stacking behavior on small screens.
+
+3. Check External CSS Load
+Tool: Chrome DevTools → Network tab
+
+Action: Filtered by .css and reloaded the page to confirm external stylesheets were loaded.
+
+Result: Verified that styles.css was loaded without errors (Status 200 OK).
+
+ Files Used
+index.html
+
+styles.css
+
+ Tools Used
+Chrome DevTools
+
+VS Code with Live Server
+
+
+ Status
+Task completed successfully. Layout tested and debugged for responsiveness on various devices.

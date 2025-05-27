@@ -1,0 +1,40 @@
+/* Table Styling */
+
+/* Basic table setup */
+table {
+    width: 100%;
+    border-collapse: collapse; /* collapse borders */
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Header cells */
+th {
+    border: 1px solid #ddd;
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+}
+
+/* Data cells */
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Zebra striping for even rows */
+tbody tr:nth-child(even) {
+    background-color: #f2f6ff;
+}
+
+/* Zebra striping for odd rows (optional, for contrast) */
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Hover effect on rows */
+tbody tr:hover {
+    background-color: #d0e2ff;
+}

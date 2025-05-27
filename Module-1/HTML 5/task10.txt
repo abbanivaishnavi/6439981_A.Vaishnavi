@@ -1,0 +1,44 @@
+Task 10: Debugging with Chrome DevTools (HTML Assignment)
+ Scenario
+A few users report layout issues and script errors.
+
+ Objective
+Use Chrome DevTools and VS Code features to debug and test styles and scripts effectively.
+
+Steps Performed
+1. Inspect Element
+Action: Right-clicked on page element and selected Inspect to open Chrome DevTools.
+
+Purpose: Edited and tested CSS styles in real time under the Elements tab.
+
+2. View Logs in Console
+Action: Opened the Console tab in DevTools.
+
+Purpose: Verified console.log() messages from the <script> file (e.g., "Welcome to the Community Portal").
+
+Result: Confirmed JavaScript execution and detected any error logs.
+
+3. Add Breakpoints in JavaScript
+Action: Opened the Sources tab.
+
+Purpose: Placed breakpoints in main.js to pause execution and inspect variable values.
+
+Result: Watched real-time values and understood logic flow for troubleshooting.
+
+ Tools Used
+Google Chrome Developer Tools
+
+Visual Studio Code (VS Code)
+
+ Screenshots Attached
+Screenshot of:
+
+Console showing logs.
+
+Elements tab with live CSS editing.
+
+Sources tab with JavaScript breakpoints.
+ Filename: task10_debugging_screenshots.png (or similar)
+
+ Status
+Task successfully completed and documented.

@@ -1,0 +1,67 @@
+/* Base styles (desktop) */
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Font sizes using viewport width for scalability */
+body {
+    font-size: 1.1vw; /* scales with viewport width */
+}
+
+/* Media query for screens smaller than 768px (tablets and phones) */
+@media screen and (max-width: 768px) {
+  
+    /* Stack nav links vertically */
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Adjust font size smaller for smaller devices */
+    body {
+        font-size: 4vw; /* relatively bigger but readable on small devices */
+    }
+
+    /* Reduce image sizes */
+    img {
+        width: 90vw;  /* 90% of viewport width */
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+    }
+
+    /* Make event cards full width and add padding */
+    .eventCard {
+        width: 95vw;
+        margin: 10px auto;
+        padding: 15px;
+    }
+}
+
+/* Bonus: Using Flexbox for responsive layout of event cards container */
+.eventCardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.eventCard {
+    flex: 1 1 300px; /* grow, shrink, base width */
+    max-width: 400px;
+}

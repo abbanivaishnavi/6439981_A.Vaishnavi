@@ -1,0 +1,36 @@
+<!-- Event Feedback Section -->
+<section id="feedback">
+  <h2>Event Feedback</h2>
+
+  <form id="feedbackForm">
+    <!-- Phone Number with onblur validation -->
+    <label for="phone">Phone Number:</label>
+    <input type="text" id="phone" placeholder="10-digit number" onblur="validatePhone()" required><br><br>
+
+    <!-- Dropdown with onchange to show fee -->
+    <label for="feeSelect">Choose an Event:</label>
+    <select id="feeSelect" onchange="displayFee()">
+      <option value="">-- Select --</option>
+      <option value="100">Music Night - ₹100</option>
+      <option value="50">Yoga Session - ₹50</option>
+      <option value="150">Food Festival - ₹150</option>
+    </select><br><br>
+
+    <p id="eventFee" class="highlight"></p>
+
+    <!-- Feedback Textarea with key event tracking -->
+    <label for="feedbackText">Your Feedback:</label><br>
+    <textarea id="feedbackText" rows="4" cols="40" onkeyup="countChars()"
+              placeholder="Write your feedback here..."></textarea><br>
+    <small>Characters typed: <span id="charCount">0</span></small><br><br>
+
+    <!-- Image with ondblclick -->
+    <img src="event6.jpg" alt="Event Highlight" title="Double-click to enlarge"
+         id="eventImage" ondblclick="enlargeImage()" class="eventImage"><br><br>
+
+    <!-- Submit Button with onclick -->
+    <button type="button" onclick="submitFeedback()">Submit Feedback</button>
+
+    <output id="feedbackConfirmation"></output>
+  </form>
+</section>

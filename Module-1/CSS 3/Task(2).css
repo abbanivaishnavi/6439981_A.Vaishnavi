@@ -1,0 +1,46 @@
+/* styles.css */
+
+/* Style for main CTA button */
+.cta-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for primary navigation links */
+nav a {
+    color: #264653;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Style for event titles */
+.event-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #2a9d8f;
+    margin-bottom: 8px;
+}
+
+/* Style for footer text */
+footer {
+    background-color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+}

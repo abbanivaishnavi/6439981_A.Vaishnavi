@@ -1,0 +1,50 @@
+/* Typography styles */
+
+/* Body uses Roboto for readability */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Main heading uses Playfair Display for elegance */
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+}
+
+/* Section titles - slightly smaller, uppercase */
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+}
+
+/* Paragraph descriptions */
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+
+/* Call to action buttons */
+.cta-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 25px;
+}

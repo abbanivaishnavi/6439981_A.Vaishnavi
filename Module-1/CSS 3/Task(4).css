@@ -1,0 +1,37 @@
+/* Body styling with fallback background color and background image */
+body {
+    background-color: #e6f0ff; /* fallback light blue */
+    background-image: url('cityscape.jpg'); /* replace with your image path */
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(33, 37, 41, 0.9); /* dark text with some transparency */
+    margin: 0;
+    padding: 0 20px;
+}
+
+/* Section headers with linear gradient background and white text */
+section h2 {
+    background: linear-gradient(90deg, #004aad, #00c6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+/* Example of using HEX for text color */
+p {
+    color: #264653; /* a dark teal blue */
+}
+
+/* Example of using RGBA for backgrounds in cards */
+.eventCard {
+    background-color: rgba(255, 255, 255, 0.85); /* white with opacity */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+}
